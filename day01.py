@@ -16,7 +16,7 @@ def number_increases(depth_measurements: List) -> int:
     return count
 
 
-def sum_three_safely(start: int, len, in_list: List) -> int:
+def sum_three_safely(start: int, in_list: List) -> int:
     """ Safely sums three items from a list, returning zero if it would overflow """
     if start + 2 >= len(in_list):
         return -1
